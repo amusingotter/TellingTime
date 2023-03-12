@@ -2,7 +2,7 @@
 
 A simple website project I created for my web dev class.
 
-For the .env, please do the following and enter your own information:
+For the .env file, please do the following and enter your own information:
 
 DB_HOST=
 
