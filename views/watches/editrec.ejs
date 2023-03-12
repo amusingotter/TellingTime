@@ -1,0 +1,16 @@
+<h1> Edit</h1>
+<form action="/watches/save" method="post">
+<input type="hidden" name="watch_id" value="<%= onerec.watch_id %>" >
+<table border = '1'>
+<tr> <td> Edit model: </td> <td> <input type="text" name="model" value="<%= onerec.model %>" required> </td> </tr>
+<tr> <td> Edit material: </td> <td> <input type="text" name="material" value="<%= onerec.material %>" required> </td> </tr>
+<tr> <td> Edit movement: </td> <td> <input type="text" name="movement" value="<%= onerec.movement %>" required> </td> </tr>
+<tr> <td> Edit complications: </td> <td> <input type="text" name="complications" value="<%= onerec.complications %>" required> </td> </tr>
+<tr> <td> Edit size: </td> <td> <input type="number" step="any" name="size" value="<%= onerec.size %>" required> </td> </tr>
+<tr> <td> Edit price: </td> <td> <input type="number" step="any" name="price" value="<%= onerec.price %>" required> </td> </tr>
+<tr> <td> Edit status </td> <td> <input type="text" name="status" value="<%= onerec.status %>"> </td> </tr>
+<tr> <td> Edit manufacturer_id: </td> <td> <input type="number" name="manufacturer_id" value="<%= onerec.manufacturer_id %>"> </td> </tr>
+
+</table>
+<button type="submit">Save</button>
+</form>
